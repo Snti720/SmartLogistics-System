@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="bkj872Oz4KbGmm8OL5di-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;i&gt;Vehiculo&lt;/i&gt;" vertex="1">
-          <mxGeometry height="86" width="160" x="90" y="50" as="geometry" />
+          <mxGeometry height="100" width="160" x="90" y="50" as="geometry" />
         </mxCell>
         <mxCell id="bkj872Oz4KbGmm8OL5di-2" parent="bkj872Oz4KbGmm8OL5di-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- id: int" vertex="1">
           <mxGeometry height="26" width="160" y="26" as="geometry" />
@@ -13,8 +13,8 @@
         <mxCell id="bkj872Oz4KbGmm8OL5di-3" parent="bkj872Oz4KbGmm8OL5di-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="160" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="bkj872Oz4KbGmm8OL5di-4" parent="bkj872Oz4KbGmm8OL5di-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getId(): int" vertex="1">
-          <mxGeometry height="26" width="160" y="60" as="geometry" />
+        <mxCell id="bkj872Oz4KbGmm8OL5di-4" parent="bkj872Oz4KbGmm8OL5di-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getId(): int&lt;div&gt;# &lt;i&gt;patronMovimiento&lt;/i&gt;(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="160" y="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
