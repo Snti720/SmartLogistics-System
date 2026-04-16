@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="Gx-6Sk3iEYZY395NJ4nk">
-    <mxGraphModel dx="317" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="388" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,16 +49,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="y_XMCYgOpmnqqYBFIQhc-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="CentroControl" vertex="1">
-          <mxGeometry height="120" width="210" x="310" y="30" as="geometry" />
+          <mxGeometry height="100" width="210" x="310" y="30" as="geometry" />
         </mxCell>
         <mxCell id="y_XMCYgOpmnqqYBFIQhc-6" parent="y_XMCYgOpmnqqYBFIQhc-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- listaVehiculos: ArrayList&amp;lt;Vehiculo&amp;gt;" vertex="1">
-          <mxGeometry height="44" width="210" y="26" as="geometry" />
+          <mxGeometry height="24" width="210" y="26" as="geometry" />
         </mxCell>
         <mxCell id="y_XMCYgOpmnqqYBFIQhc-7" parent="y_XMCYgOpmnqqYBFIQhc-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="8" width="210" y="70" as="geometry" />
+          <mxGeometry height="8" width="210" y="50" as="geometry" />
         </mxCell>
         <mxCell id="y_XMCYgOpmnqqYBFIQhc-8" parent="y_XMCYgOpmnqqYBFIQhc-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ registrarUnidad(Vehiculo v): void&lt;div&gt;+ monitorearFlota(): void&lt;/div&gt;" vertex="1">
-          <mxGeometry height="42" width="210" y="78" as="geometry" />
+          <mxGeometry height="42" width="210" y="58" as="geometry" />
         </mxCell>
         <mxCell id="y_XMCYgOpmnqqYBFIQhc-15" edge="1" parent="1" source="y_XMCYgOpmnqqYBFIQhc-8" style="endArrow=none;startArrow=diamondThin;endFill=0;startFill=0;html=1;verticalAlign=bottom;labelBackgroundColor=none;strokeWidth=1;startSize=8;endSize=8;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.498;exitY=1.045;exitDx=0;exitDy=0;exitPerimeter=0;" target="bkj872Oz4KbGmm8OL5di-1" value="">
           <mxGeometry relative="1" width="160" as="geometry">
