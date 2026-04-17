@@ -2,10 +2,10 @@
 
 Este proyecto ha sido desarrollado como parte de la **Práctica de Integración de Programación II** en la carrera de **Ingeniería Informática** de la **Facultad de Ingeniería de la Universidad Nacional de Itapúa (FIUNI)**.
 
-## 📋 Descripción del Proyecto
+## Descripción del Proyecto
 El sistema modela un entorno logístico automatizado donde un **Centro de Control** gestiona una flota mixta de vehículos (Drones y Camiones Autónomos). El enfoque principal del proyecto es la aplicación rigurosa de los principios de la Programación Orientada a Objetos (POO) para crear un modelo de software escalable, organizado y basado en el principio de abstracción.
 
-## 🛠️ Conceptos de Programación Aplicados
+## Conceptos de Programación Aplicados
 Para cumplir con los objetivos académicos establecidos por la cátedra, el diseño implementa:
 
 * **Abstracción:** Uso de la clase abstracta `Vehiculo` para definir la identidad esencial de la flota, ocultando la complejidad del movimiento específico.
