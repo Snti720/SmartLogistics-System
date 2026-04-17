@@ -11,7 +11,8 @@ Para cumplir con los objetivos académicos establecidos por la cátedra, el dise
 * **Abstracción:** Uso de la clase abstracta `Vehiculo` para definir la identidad esencial de la flota, ocultando la complejidad del movimiento específico.
 * **Interfaces:** Implementación de `IConectable` como un contrato tecnológico que garantiza que cualquier unidad pueda sincronizarse con el sistema GPS.
 * **Polimorfismo:** Implementación de métodos que permiten a cada vehículo responder de manera única a `patronMovimiento()` y `sincronizarGPS()` según su naturaleza (aérea o terrestre).
-* **Relaciones de Objetos:** * **Composición:** El `CentroControl` gestiona la estructura interna de la flota mediante un `ArrayList`.
+* **Relaciones de Objetos:**
+    * **Composición:** El `CentroControl` gestiona la estructura interna de la flota mediante un `ArrayList`.
     * **Agregación:** El sistema permite el registro dinámico de unidades externas al ecosistema.
 * **Herencia:** Reutilización de lógica y atributos comunes en las subclases `DronTransporte` y `CamionAutonomo`.
 
