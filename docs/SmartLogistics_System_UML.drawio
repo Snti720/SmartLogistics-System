@@ -35,7 +35,7 @@
         <mxCell id="bkj872Oz4KbGmm8OL5di-11" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="DronTransporte" vertex="1">
           <mxGeometry height="100" width="160" x="140" y="335" as="geometry" />
         </mxCell>
-        <mxCell id="bkj872Oz4KbGmm8OL5di-12" parent="bkj872Oz4KbGmm8OL5di-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- anguloDirección: double&lt;/div&gt;" vertex="1">
+        <mxCell id="bkj872Oz4KbGmm8OL5di-12" parent="bkj872Oz4KbGmm8OL5di-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- id: String&lt;/div&gt;" vertex="1">
           <mxGeometry height="24" width="160" y="26" as="geometry" />
         </mxCell>
         <mxCell id="bkj872Oz4KbGmm8OL5di-13" parent="bkj872Oz4KbGmm8OL5di-11" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
@@ -71,7 +71,7 @@
         <mxCell id="y_XMCYgOpmnqqYBFIQhc-27" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="CamionAutonomo" vertex="1">
           <mxGeometry height="110" width="200" x="530" y="330" as="geometry" />
         </mxCell>
-        <mxCell id="y_XMCYgOpmnqqYBFIQhc-28" parent="y_XMCYgOpmnqqYBFIQhc-27" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- pesoTransportado: double" vertex="1">
+        <mxCell id="y_XMCYgOpmnqqYBFIQhc-28" parent="y_XMCYgOpmnqqYBFIQhc-27" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- id: String" vertex="1">
           <mxGeometry height="26" width="200" y="26" as="geometry" />
         </mxCell>
         <mxCell id="y_XMCYgOpmnqqYBFIQhc-29" parent="y_XMCYgOpmnqqYBFIQhc-27" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
