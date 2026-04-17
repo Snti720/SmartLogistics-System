@@ -6,7 +6,7 @@ public abstract class Vehiculo {
         this.id = id;
     }
 
-    protected String getId(){
+    public String getId(){
         return id;
     }
 
