@@ -1,4 +1,4 @@
-# Sistema de Ecosistema Logístico Inteligente 🚚🛸
+# Sistema de Ecosistema Logístico Inteligente 
 
 Este proyecto ha sido desarrollado como parte de la **Práctica de Integración de Programación II** en la carrera de **Ingeniería Informática** de la **Facultad de Ingeniería de la Universidad Nacional de Itapúa (FIUNI)**.
 
@@ -15,17 +15,17 @@ Para cumplir con los objetivos académicos establecidos por la cátedra, el dise
     * **Agregación:** El sistema permite el registro dinámico de unidades externas al ecosistema.
 * **Herencia:** Reutilización de lógica y atributos comunes en las subclases `DronTransporte` y `CamionAutonomo`.
 
-## 🏗️ Estructura de Clases
+## Estructura de Clases
 * `Vehiculo.java`: Clase abstracta base que actúa como plantilla para todos los transportes.
 * `IConectable.java`: Interfaz que define las capacidades de conectividad del sistema.
 * `DronTransporte.java`: Clase concreta que implementa la lógica de navegación tridimensional.
 * `CamionAutonomo.java`: Clase concreta que implementa la lógica de rutas viales terrestres.
 * `CentroControl.java`: Clase gestora encargada del monitoreo y la administración de la flota.
 
-## 👨‍💻 Autores
+## Autores
 * **Santiago Arce** - [Snti720](https://github.com/Snti720)
 * **Yesica Villamil** - [Yezz26](https://github.com/Yezz26)
 
-## 🎓 Docentes
+## Docentes
 * **Ma. Nieves Florentín**
 * **Arnaldo Ocampo**
