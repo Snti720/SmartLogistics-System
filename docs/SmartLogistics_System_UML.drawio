@@ -69,7 +69,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="y_XMCYgOpmnqqYBFIQhc-27" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="CamionAutonomo" vertex="1">
-          <mxGeometry height="110" width="200" x="530" y="330" as="geometry" />
+          <mxGeometry height="100" width="200" x="530" y="330" as="geometry" />
         </mxCell>
         <mxCell id="y_XMCYgOpmnqqYBFIQhc-28" parent="y_XMCYgOpmnqqYBFIQhc-27" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- id: String" vertex="1">
           <mxGeometry height="26" width="200" y="26" as="geometry" />
@@ -77,8 +77,8 @@
         <mxCell id="y_XMCYgOpmnqqYBFIQhc-29" parent="y_XMCYgOpmnqqYBFIQhc-27" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="200" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="y_XMCYgOpmnqqYBFIQhc-30" parent="y_XMCYgOpmnqqYBFIQhc-27" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ CamionAutonomo(String id)&lt;div&gt;+ CamionAutonomo(int pesoCarga)&lt;/div&gt;&lt;div&gt;+ sincronizarGPS(): void&lt;/div&gt;" vertex="1">
-          <mxGeometry height="50" width="200" y="60" as="geometry" />
+        <mxCell id="y_XMCYgOpmnqqYBFIQhc-30" parent="y_XMCYgOpmnqqYBFIQhc-27" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ CamionAutonomo(String id)&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ sincronizarGPS(): void&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="200" y="60" as="geometry" />
         </mxCell>
         <mxCell id="y_XMCYgOpmnqqYBFIQhc-31" edge="1" parent="1" source="y_XMCYgOpmnqqYBFIQhc-27" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.996;entryY=1.016;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="bkj872Oz4KbGmm8OL5di-4" value="">
           <mxGeometry relative="1" width="160" as="geometry">
