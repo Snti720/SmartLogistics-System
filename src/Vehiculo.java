@@ -2,14 +2,14 @@ public abstract class Vehiculo {
     //se necesita logica para poder crear herencia en Dron y Camion
     private String id;
 
-    public Vehiculo(String id){
+    protected Vehiculo(String id){
         this.id = id;
     }
 
-    public String getId(){
+    protected String getId(){
         return id;
     }
 
-    public abstract void patronMovimiento();
+    protected abstract void patronMovimiento();
 
 }
