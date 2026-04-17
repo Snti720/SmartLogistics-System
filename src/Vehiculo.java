@@ -9,6 +9,7 @@ public abstract class Vehiculo {
     public String getId(){
         return id;
     }
+
     public abstract void patronMovimiento();
 
 }
