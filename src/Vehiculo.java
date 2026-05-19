@@ -1,23 +1,21 @@
-/**
- * Representa la unidad base del sistema logístico.
- * Define la identidad y obliga a las subclases a implementar un movimiento.
- */
 public abstract class Vehiculo {
+    //se necesita logica para poder crear herencia en Dron y Camion
     private String id;
+    private String tipo;
+    protected boolean conectable;
 
-    protected Vehiculo(String id){
+    public Vehiculo(String id){
         this.id = id;
     }
-
-    /**
-     * Obtiene el identificador único del vehículo.
-     * Implementado en la clase abstracta para fomentar la reutilización de código.
-     * * @return El ID del vehículo.
-     */
     public String getId(){
         return id;
     }
-
-    protected abstract void patronMovimiento();
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+    public void setConectable(boolean conectable) {
+        this.conectable = conectable;
+    }
+    public abstract void patronMovimiento();
 
 }
