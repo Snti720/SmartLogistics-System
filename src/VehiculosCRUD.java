@@ -59,4 +59,11 @@ public class VehiculosCRUD{
             System.out.println("Vehiculo no encontrado.");
         }
     }
+    public void filtrarConectables() {
+        List<Vehiculo> conectables = vehiculos.stream()
+                .filter(Vehiculo::isConectable)
+                .collect(Collectors.toList());
+
+        conectables.forEach(System.out::println);
+    }
 }

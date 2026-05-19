@@ -16,6 +16,9 @@ public abstract class Vehiculo {
     public void setConectable(boolean conectable) {
         this.conectable = conectable;
     }
+    public boolean isConectable() {
+        return conectable;
+    }
     public abstract void patronMovimiento();
 
 }
