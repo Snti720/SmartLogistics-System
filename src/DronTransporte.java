@@ -24,4 +24,9 @@ public class DronTransporte extends Vehiculo implements IConectable{
     public void sincronizarGPS() {
         System.out.println("Dron " + getId() + ": Sincronizando GPS... Estableciendo coordenadas de vuelo y altitud de seguridad.");
     }
+
+    @Override
+    public String toString() {
+        return "Vehiculo [ID=" + getId() + ", Conectable=" + isConectable() + "]";
+    }
 }

@@ -1,7 +1,7 @@
 /**
  * Subclase concreta que representa un vehículo terrestre dentro del ecosistema.
  */
-public class CamionAutonomo extends Vehiculo implements IConectable{
+public class CamionAutonomo extends Vehiculo{
     public CamionAutonomo(String id){
         super(id);
     }
@@ -15,12 +15,8 @@ public class CamionAutonomo extends Vehiculo implements IConectable{
         System.out.println("Se maneja por carretera");
     }
 
-    /**
-     * Conecta el sistema de navegación del camión con la red de rutas terrestres.
-     * Simula la actualización de datos de tráfico y posicionamiento en carretera.
-     */
     @Override
-    public void sincronizarGPS() {
-        System.out.println("Camión " + getId() + ": Sincronizando GPS... Calculando mejores rutas.");
+    public String toString() {
+        return "Vehiculo [ID=" + getId() + ", Conectable=" + isConectable() + "]";
     }
 }
